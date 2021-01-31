@@ -1,0 +1,22 @@
+.Road {
+  display: flex;
+  justify-content: center;
+
+  &__background,
+
+  &__background-car {
+    width: 200px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    background-image: url("car_outline.png");
+  }
+
+  &__background {
+    width: 1080px;
+    height: 2280px;
+    background-repeat: repeat;
+    background-image: url("road.png");
+  }
+}
